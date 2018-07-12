@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../static/css/main.css">
+        <script src = "../static/js/script.js"></script>
+        <title>Main Page </title>
+    </head>
+    <body>
+        <div class = "container animateOff"></div>
+        <label id = "label"> Dark Theme
+          <input type="checkbox" name="check" onclick="check(this)" class = "checkbox" />
+        </label>
+     <script type="text/javascript">
+        var lab = document.getElementById('label');
+        function check(checkbox)
+        {
+            if (checkbox.checked)
+            {
+                document.body.style.backgroundColor = "#222";
+                lab.style.color = "#fff";
+            } else {
+                document.body.style.backgroundColor = "#E1E7F5";
+                lab.style.color = "#000";
+            }
+        }
+    </script>
+   </body>
+</html>
