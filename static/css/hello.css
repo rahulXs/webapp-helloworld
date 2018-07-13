@@ -1,0 +1,22 @@
+.container {
+    width: 50%;
+    height: 200px;
+    background-color: #dcdcde;
+    margin: 100px auto;
+    color: #555;
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 250px;
+    transition:all,1s;
+}
+
+.animateOn { color: #555; }
+.animateOff { color: #dcdcde; }
+label {
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+    transition: all, 0.5s;
+}
